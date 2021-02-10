@@ -1,0 +1,32 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+.image {
+    background-color: rgb(240, 209, 235);
+}
+
+#images {
+    width: 268px;
+    height: 268px;
+}
+
+h1 {
+    font-size: xx-large;
+    color: black;
+}
+
+.intro {
+    background-image: url(../images/cardigan.jpg);
+    background-size: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
