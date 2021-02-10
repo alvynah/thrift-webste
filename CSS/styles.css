@@ -1,6 +1,6 @@
 body {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: blanchedalmond;
 }
 
 figcaption {
@@ -8,25 +8,39 @@ figcaption {
     color: white;
     font-style: italic;
     text-align: center;
+    display: table-caption;
+    caption-side: bottom;
 }
 
-.image {
-    background-color: rgb(240, 209, 235);
+.category {
+    font-size: 20px;
+    color: blanchedalmond;
 }
 
 #images {
-    width: 268px;
-    height: 268px;
+    padding-left: 15px;
+    width: 200px;
+    height: 200px;
 }
 
 h1 {
-    font-size: xx-large;
-    color: black;
+    color: rgb(41, 70, 17);
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: white;
 }
 
 .intro {
     background-image: url(../images/cardigan.jpg);
-    background-size: 100%;
-    max-width: 100%;
-    max-height: 100%;
+    background-size: contain;
+}
+
+.list {
+    text-align: justify;
 }
