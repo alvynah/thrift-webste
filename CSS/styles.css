@@ -23,6 +23,16 @@ figcaption {
     height: 200px;
 }
 
+.imgt {
+    float: left;
+    width: 200px;
+    height: 200px;
+    max-width: auto;
+    max-height: auto;
+    margin: auto;
+    border-radius: 30%;
+}
+
 h1 {
     color: rgb(41, 70, 17);
     font-style: oblique;
