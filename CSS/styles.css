@@ -7,6 +7,10 @@
                 background-color: black;
                 color: white;
                 font-style: italic;
+                <<<<<<< HEAD=======text-align: center;
+                display: table-caption;
+                caption-side: bottom;
+                >>>>>>>6fea946cb27a7998711a4e9bdd98b0e349ad5b34
             }
             
             .category {
@@ -39,10 +43,13 @@
             
             h2 {
                 text-align: center;
+                <<<<<<< HEAD
             }
             
             h3 {
                 color: rgb(41, 70, 17);
+                =======color: white;
+                >>>>>>>6fea946cb27a7998711a4e9bdd98b0e349ad5b34
             }
             
             .intro {
@@ -54,12 +61,12 @@
                 text-align: justify;
             }
             
-            .column {
+            <<<<<<< HEAD .column {
                 width: 220px;
                 float: left;
             }
             
-            @media screen and (min-width: 480px) {
+            =======>>>>>>>6fea946cb27a7998711a4e9bdd98b0e349ad5b34 @media screen and (min-width: 480px) {
                 body {
                     background-color: black;
                     color: white;
