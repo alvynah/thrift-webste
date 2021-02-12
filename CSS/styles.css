@@ -7,9 +7,6 @@
                 background-color: black;
                 color: white;
                 font-style: italic;
-                text-align: center;
-                display: table-caption;
-                caption-side: bottom;
             }
             
             .category {
@@ -18,9 +15,8 @@
             }
             
             #images {
-                padding-left: 15px;
-                width: 150px;
-                height: 150px;
+                width: 200px;
+                height: 200px;
             }
             
             .imgt {
@@ -43,7 +39,10 @@
             
             h2 {
                 text-align: center;
-                color: white;
+            }
+            
+            h3 {
+                color: rgb(41, 70, 17);
             }
             
             .intro {
@@ -53,6 +52,11 @@
             
             .list {
                 text-align: justify;
+            }
+            
+            .column {
+                width: 220px;
+                float: left;
             }
             
             @media screen and (min-width: 480px) {
